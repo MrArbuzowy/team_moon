@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.header{
+    background-color: black;
+    display: flex;
+}
+.mainmenu{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.p1{
+    color: white;
+    text-align: center;
+    margin-left: 30px;
+    text-align: center;
+    margin: 40px;
+    text-decoration: none;
+}
+.img1{
+    height: 70px;
+    top: 0;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+body{
+
+    background-color: #000000;
+    background: radial-gradient(circle, transparent 20%, #000000 20%, #000000 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #000000 20%, #000000 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#0d6bb2 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #0d6bb2 2px, #000000 2px) -1px 0;
+    background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+    
+    
+}
+.contaner{
+    
+    /* background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    text-align: center;
+    
+}
+.mainheader{
+    color: white;
+    text-align: center;
+    font-family: 'Zen Dots', cursive;
+}
+.articalheader{
+   font-family: 'Oswald', sans-serif;
+   color: white;
+   font-size: 50px;
+}
+.promo{
+    height: 650px;
+    background-image: url(zdj/127512.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.promotext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    text-align: center;
+}
+.mainheader2{
+    font-size: 35px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.mainheaderbuttom{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 50px;
+    padding: 15px 25px;
+    transition: 0.5s;
+    margin-top: 30px;
+}
+.mainheaderbuttom:hover{
+    background-color: white;
+    color: black;
+    
+}
+.square{
+    
+    color: white;
+    display: inline-block;
+    width: fit-content;
+    width: 1000px;
+    margin: 100px auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+    
+
+}
+.about{
+    position: relative;
+    text-align: center;
+    
+    
+}
+.squaretext{
+    text-align: left;
+    display: inline-block;
+    width: 400px;
+    float: right;
+    padding: 10px;
+}
+.owners{
+    display: inline-block;
+    width: 500px;
+}
+.owner{
+    margin: 25px 0;
+}
+.ownerimg{
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    border-radius: 300px;
+}
+.ownerabout{
+
+}
+.ownernick{
+    font-size: 30px;
+    font-weight: bold;
+    color: hsl(206, 65%, 49%);
+}
+.gamers{
+    color: white;
+    display: inline-block;
+    width: fit-content;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+.gamer{
+    width: fit-content;
+    display: inline-block;
+    margin: 0 20px 30px 20px;
+}
+.gamerimg{
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+}
+.gamerabout{
+    color: hsl(206, 65%, 49%);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.socials{
+
+}
+.socialimg{
+    margin: 0 5px;
+}
+
+.gamerlogotext{
+    font-family: 'Oswald', sans-serif;
+    margin: 20px 0;
+}
+
+
+.carousel-wrapper {
+    width: 1300px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+    border-radius: 20px;
+    margin: 0 auto 20px;
+  }
+  
+  .carousel-container {
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .carousel {
+    display: flex;
+    width: 3000px;
+    animation: sliding 12s infinite;
+  }
+  .carousel div {
+    width: 1000px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  .carousel:hover {
+    animation-play-state: paused;
+  }
+  .carousel .image-one {
+    background-image: url("zdj/contender.jpg");
+  }
+  .carousel .image-two {
+    background-image: url("zdj/contender.jpg");
+  }
+  .carousel .image-three {
+    background-image: url("zdj/win.png");
+  }
+  
+  @keyframes sliding {
+    30% {
+      transform: translateX(0);
+    }
+    35% {
+      transform: translateX(-1000px);
+    }
+    65% {
+      transform: translateX(-1000px);
+    }
+    70% {
+      transform: translateX(-2000px);
+    }
+    98% {
+      transform: translateX(-2000px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .carousel-wrapper {
+      width: 312px;
+      height: 210px;
+    }
+  
+    .carousel-container {
+      width: 240px;
+      height: 150px;
+    }
+  
+    .carousel {
+      width: 720px;
+    }
+    .carousel > div {
+      width: 240px;
+      height: 150px;
+    }
+  
+    @keyframes sliding {
+      30% {
+        transform: translateX(0);
+      }
+      35% {
+        transform: translateX(-240px);
+      }
+      65% {
+        transform: translateX(-240px);
+      }
+      70% {
+        transform: translateX(-480px);
+      }
+      98% {
+        transform: translateX(-480px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+  }
+  .contacts{
+    color: white;
+    display: inline-block;
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .logosocial{
+    width: 100px;
+    height: 100px;
+    margin: 110px 30px;
+  }
+  .contactstext{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px;
+  }
+  .up{
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 50px;
+    line-height: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    display: block;
+    text-decoration: none;
+    position: fixed;
+    transform: translateX(-50%);
+    bottom: 30px;
+    left: 50%;
+    transition: 0.5s;
+  }
+  .up:hover{
+    background-color: white;
+    color: black;
+    opacity: 1;
+  }
