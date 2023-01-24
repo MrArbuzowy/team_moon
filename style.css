@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+.bodyheader{
+
+  
+}
+
+body{
+  
+  position: absolute;
+}
 .header{
     background-color: black;
     display: flex;
+
 }
 .mainmenu{
     background-color: black;
@@ -30,6 +42,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    word-wrap: break-word;
 
 }
 body{
@@ -247,7 +260,7 @@ body{
       transform: translateX(0);
     }
   }
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) {
     .carousel-wrapper {
       width: 312px;
       height: 210px;
@@ -286,7 +299,7 @@ body{
         transform: translateX(0);
       }
     }
-  }
+  } */
   .contacts{
     color: white;
     display: inline-block;
