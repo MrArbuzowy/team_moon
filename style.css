@@ -343,3 +343,17 @@ body{
     color: black;
     opacity: 1;
   }
+  .gifdance{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 300px;
+    height: 300px;
+  }
+  .gifdance2{
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+    width: 300px;
+    height: 300px;
+  }
