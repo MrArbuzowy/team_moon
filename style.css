@@ -314,7 +314,43 @@ body{
     width: 100px;
     height: 100px;
     margin: 110px 30px;
+    transition: 0.1s;
   }
+  .logo{
+
+  }
+  .logo2{
+    
+  }
+  .logo3{
+    
+  }
+  .logo4{
+    
+  }
+  .logo5{
+    
+  }
+.logo:hover{
+  filter: invert(38%) sepia(45%) saturate(6482%) hue-rotate(249deg) brightness(103%)
+    
+}
+.logo2:hover{
+  filter: invert(24%) sepia(12%) saturate(2840%) hue-rotate(73deg) brightness(95%) contrast(87%);
+  
+}
+.logo3:hover{
+  filter: invert(59%) sepia(84%) saturate(4196%) hue-rotate(211deg) brightness(98%) contrast(106%);
+  
+}
+.logo4:hover{
+  filter: invert(80%) sepia(61%) saturate(2922%) hue-rotate(358deg) brightness(102%)
+  
+}
+.logo5:hover{
+  filter: invert(19%) sepia(91%) saturate(5442%) hue-rotate(337deg) brightness(94%);
+  
+}
   .contactstext{
     font-family: 'Oswald', sans-serif;
     margin-top: 20px;
