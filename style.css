@@ -4,13 +4,13 @@
 
 
 .bodyheader{
-
+  width: 100vw;
   
 }
 
 body{
   
-  position: absolute;
+
 }
 .header{
     background-color: black;
